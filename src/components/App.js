@@ -9,6 +9,7 @@ const App = () => {
         {/* Do not remove the main div */}
         
         <BrowserRouter>
+          <h1>Item List</h1>
           <ul>
             <li><Link to='/items/1'>Item 1</Link></li>
             <li><Link to='/items/2'>Item 2</Link></li>
