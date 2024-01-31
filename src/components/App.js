@@ -9,14 +9,12 @@ const App = () => {
         {/* Do not remove the main div */}
         
         <BrowserRouter>
+          <ul>
+            <li><Link to='/items/1'>Item 1</Link></li>
+            <li><Link to='/items/2'>Item 2</Link></li>
+            <li><Link to='/items/3'>Item 3</Link></li>
+          </ul>
           <Routes>
-            <Route path='/' element={
-              <ul>
-                <li><Link to='/items/1'>Item 1</Link></li>
-                <li><Link to='/items/2'>Item 2</Link></li>
-                <li><Link to='/items/3'>Item 3</Link></li>
-              </ul>
-            } />
             <Route path="/items/1" element={
               <>
                 <h1>Item 1</h1>
